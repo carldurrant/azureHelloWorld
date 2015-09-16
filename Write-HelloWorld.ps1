@@ -30,7 +30,7 @@ workflow Write-HelloWorld {
         # If you do not enter anything, the default value of Name 
         # will be World
         [parameter(Mandatory=$false)]
-        [String]$Name = "World"
+        [String]$Name = "World 1"
     )
 
         Write-Output "Hello $Name"
